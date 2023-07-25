@@ -1,0 +1,25 @@
+.header-container {
+    &__nav {
+        display: flex;
+    }
+
+    &__link {
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 20px;
+        border-bottom: 10px solid;
+        border-radius: 50%;
+
+        &:hover {
+            color: grey;
+            padding-top: 1px;
+
+        }
+    }
+}
+
+.header-container__card {
+    background-color: rgb(244, 239, 239);
+}
